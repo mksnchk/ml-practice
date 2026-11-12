@@ -53,7 +53,7 @@ jupyter lab
 
 > **Практика 3 на Windows.** Токенизаторы KerasHub используют `tensorflow-text`, у которого нет сборок под нативный Windows. Запускайте эту тетрадь в WSL2 или в Google Colab.
 
-## 📈 MLflow
+##  MLflow
 
 Параметры, метрики по эпохам и графики пишутся в `mlflow.db` в корне репозитория:
 
@@ -63,6 +63,6 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db
 
 Затем откройте http://127.0.0.1:5000.
 
-## 🛠 Стек
+##  Стек
 
 Python · Pandas · NumPy · Matplotlib · Seaborn · scikit-learn · TensorFlow / Keras 3 · KerasHub · MLflow
